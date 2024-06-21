@@ -1,3 +1,39 @@
 header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.categorias {
+  font-size: 0;
+}
+
+.categorias > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  max-width: 201px;
+  aspect-ratio: 1/1;
+}
+
+.categorias .gatos {
+  background-image: url(../images/categoria_gatos.png);
+}
+
+.categorias .perros {
+  background-image: url(../images/categoria_perros.png);
+}
+
+.categorias .aves {
+  background-image: url(../images/categoria_aves.png);
+}
+
+.categorias .peces {
+  background-image: url(../images/categoria_peces.png);
+}
+
+.categorias .reptiles {
+  background-image: url(../images/categoria_reptiles.png);
+}
+
+.categorias .roedores {
+  background-image: url(../images/categoria_roedores.png);
+}
