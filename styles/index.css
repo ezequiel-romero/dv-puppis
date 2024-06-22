@@ -2,6 +2,54 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+div.col{
+   padding: 0 2rem;
+}
+
+h1.text-center{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2.text-center{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3.text-center{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p{
+  text-align: center;
+}
+
+.satisfaccion{
+  font-size: 0;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  background-image: url(../images/satisfaccion_del_cliente.jpg);
+}
+
+.calidad{
+  align-items: center;
+  font-size: 0;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  background-image: url(../images/calidad_seguridad.jpg);
+}
+
+.mascotas{
+  font-size: 0;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  background-image: url(../images/amor_por_mascotas.jpg);
+}
+
 .categorias {
   font-size: 0;
 }
