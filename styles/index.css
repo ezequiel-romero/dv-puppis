@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+h1 {
+  color: #165395;
+}
+
+p {
+  margin: 0;
+}
+
 header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -65,4 +73,32 @@ header {
 
 .categorias .roedores {
   background-image: url(../images/categoria_roedores.png);
+}
+
+.promo,
+.link {
+  max-width: 500px;
+  height: 128px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.shampoo {
+  background-image: url(../images/promo_1.jpg);
+}
+
+.colchonetas {
+  background-image: url(../images/promo_2.jpg);
+}
+
+.sucursales {
+  background-image: url(../images/promo_3.jpg);
+}
+
+.accesorios {
+  background-image: url(../images/promo_4.jpg);
 }
