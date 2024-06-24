@@ -1,31 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-div.col{
-   padding: 0 2rem;
-}
-
-h1.text-center{
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-h2.text-center{
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-h3.text-center{
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-p{
-  text-align: center;
-}
-
-.satisfaccion{
+.satisfaccion {
   font-size: 0;
   background-repeat: no-repeat;
   width: 128px;
@@ -33,7 +14,7 @@ p{
   background-image: url(../images/satisfaccion_del_cliente.jpg);
 }
 
-.calidad{
+.calidad {
   align-items: center;
   font-size: 0;
   background-repeat: no-repeat;
@@ -42,7 +23,7 @@ p{
   background-image: url(../images/calidad_seguridad.jpg);
 }
 
-.mascotas{
+.mascotas {
   font-size: 0;
   background-repeat: no-repeat;
   width: 128px;
@@ -54,7 +35,7 @@ p{
   font-size: 0;
 }
 
-.categorias > div {
+.categorias>div {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
