@@ -75,16 +75,22 @@ header {
   background-image: url(../images/categoria_roedores.png);
 }
 
+.promo {
+  border-radius: 10px;
+}
+
 .promo,
 .link {
+  min-width: 300px;
   max-width: 600px;
-  height: 153px;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   font-size: 0;
   padding: 0;
   margin: 0;
+  aspect-ratio: 200/51;
 }
 
 .shampoo {
