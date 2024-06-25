@@ -102,3 +102,13 @@ header {
 .accesorios {
   background-image: url(../images/promo_4.jpg);
 }
+
+.card {
+  max-width: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+}
