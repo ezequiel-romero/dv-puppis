@@ -18,6 +18,18 @@ form.row.g-3{
              margin: 2rem;
 }
 
+footer{
+  background-color: #165395;
+}
+
+a{
+  text-decoration: none;
+}
+
+.oscuro{
+  background-color: #123a66;
+}
+
 .satisfaccion {
   font-size: 0;
   background-repeat: no-repeat;
