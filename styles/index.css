@@ -209,6 +209,11 @@ ul {
   background-image: url(../images/profile_ezequiel_romero.jpg);
 }
 
+.modal-nosotros .mromero {
+  background-image: url(../images/profile_martin_romero.jpg);
+  height: 167px;
+}
+
 @media screen and (max-width: 768px) {
   .modal-nosotros {
     flex-direction: column;
