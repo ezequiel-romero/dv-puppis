@@ -2,8 +2,17 @@
   box-sizing: border-box;
 }
 
-h1 {
+.blue-title {
   color: #165395;
+}
+
+.navbar-brand {
+  display: block;
+  background: url(../images/logo.png) no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 40px;
+  font-size: 0;
 }
 
 p {
@@ -14,65 +23,70 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-form.row.g-3{
-             margin: 2rem;
+form.row.g-3 {
+  margin: 2rem;
 }
 
-footer{
+footer {
   background-color: #165395;
 }
 
-a{
+a {
   cursor: pointer;
   text-decoration: none;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-.modal{
+.fs-0 {
+  font-size: 0;
+}
+
+.modal {
   backdrop-filter: blur(2px);
 }
 
-.espacio{
+.espacio {
   padding-top: 2rem;
 }
 
-.oscuro{
+.oscuro {
   background-color: #123a66;
 }
 
-.satisfaccion {
-  font-size: 0;
-  background-repeat: no-repeat;
-  width: 128px;
-  height: 128px;
-  background-image: url(../images/satisfaccion_del_cliente.jpg);
-}
-
-.calidad {
-  align-items: center;
-  font-size: 0;
-  background-repeat: no-repeat;
-  width: 128px;
-  height: 128px;
-  background-image: url(../images/calidad_seguridad.jpg);
-}
-
+.satisfaccion,
+.calidad,
 .mascotas {
   font-size: 0;
   background-repeat: no-repeat;
-  width: 128px;
-  height: 128px;
-  background-image: url(../images/amor_por_mascotas.jpg);
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  padding: 50px;
+  border-radius: 100px;
+}
+
+.satisfaccion {
+  background-image: url(../images/compromiso-satisfaccion_del_cliente.jpg);
+}
+
+.calidad {
+  background-image: url(../images/compromiso-calidad_seguridad.jpg);
+}
+
+.mascotas {
+  background-image: url(../images/compromiso-amor_por_mascotas.jpg);
 }
 
 .categorias {
   font-size: 0;
 }
 
-.categorias>div {
+.categorias>a {
+  display: block;
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -120,6 +134,7 @@ ul{
   padding: 0;
   margin: 0;
   aspect-ratio: 200/51;
+  display: block;
 }
 
 .shampoo {
