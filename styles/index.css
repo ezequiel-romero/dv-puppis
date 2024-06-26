@@ -137,6 +137,10 @@ ul {
   display: block;
 }
 
+.info-square {
+  min-width: 300px;
+}
+
 .shampoo {
   background-image: url(../images/promo_1.jpg);
 }
@@ -163,6 +167,19 @@ ul {
   width: 100%;
 }
 
+.condiciones {
+  list-style: outside;
+}
+
+.zonas-entrega {
+  background-image: url(../images/zonas-entrega.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 30px;
+  height: 519px;
+}
+
 .modal-nosotros {
   display: flex;
   gap: 30px;
@@ -183,10 +200,23 @@ ul {
 .modal-nosotros .profile {
   width: 250px;
   height: 250px;
-  background-position: center;
   border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.modal-nosotros .eromero {
-  background: url(../images/profile_ezequiel_romero.jpg) no-repeat;
+.modal-nosotros .profile.eromero {
+  background-image: url(../images/profile_ezequiel_romero.jpg);
+}
+
+@media screen and (max-width: 768px) {
+  .modal-nosotros {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .modal-nosotros:nth-child(2) {
+    flex-direction: column-reverse;
+    text-align: left;
+  }
 }
