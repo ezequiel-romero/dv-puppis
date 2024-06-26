@@ -120,10 +120,6 @@ ul {
 
 .promo {
   border-radius: 10px;
-}
-
-.promo,
-.link {
   min-width: 300px;
   max-width: 600px;
   width: 100%;
@@ -147,14 +143,6 @@ ul {
 
 .colchonetas {
   background-image: url(../images/promo_2.jpg);
-}
-
-.sucursales {
-  background-image: url(../images/promo_3.jpg);
-}
-
-.accesorios {
-  background-image: url(../images/promo_4.jpg);
 }
 
 .card {
