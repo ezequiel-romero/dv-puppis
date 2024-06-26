@@ -26,6 +26,14 @@ a{
   text-decoration: none;
 }
 
+.modal{
+  backdrop-filter: blur(2px);
+}
+
+.espacio{
+  padding-top: 2rem;
+}
+
 .oscuro{
   background-color: #123a66;
 }
