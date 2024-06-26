@@ -31,7 +31,7 @@
               <a class="nav-link" href="#">Inicio</a>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link" href="#nosotros">Nosotros</a>
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#alumnos">Nosotros</a>
             </li>
             <li class="nav-item text-center">
               <a class="nav-link" href="#productos">Productos</a>
@@ -41,6 +41,39 @@
       </div>
     </nav>
   </header>
+
+  <div class="modal fade" id="alumnos">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Nosotros</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+
+          <ul>
+
+            <li>Foto</li>
+
+            <li>Nombre</li>
+
+            <li>Edad</li>
+
+            <li>Correo Electronico</li>
+
+            <li>Redes Sociales</li>
+
+          </ul>
+        
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <main>
     <section class="container-fluid p-0" id="hero">
