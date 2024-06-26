@@ -202,6 +202,10 @@ ul {
   height: 167px;
 }
 
+.modal-nosotros .jtorre{
+  background-image: url(../images/profile_juan_delatorre.jpg);
+}
+
 @media screen and (max-width: 768px) {
   .modal-nosotros {
     flex-direction: column;
