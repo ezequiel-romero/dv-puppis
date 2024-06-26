@@ -190,3 +190,8 @@ ul {
 .modal-nosotros .eromero {
   background: url(../images/profile_ezequiel_romero.jpg) no-repeat;
 }
+
+.modal-nosotros .mromero{
+  background: url(../images/profile_martin_romero.jpg) no-repeat;
+  height: 167px;
+}
